@@ -1,3 +1,5 @@
+@import "./../../../scss/constants.scss";
+
 .detail{
     display: grid;
     grid-template-columns: 70% 30%;   
@@ -32,4 +34,11 @@
 
 .detail__description{
     margin-top: 2rem;
+}
+
+@media (max-width: $mobile-resolution) {
+    .detail{
+        display: flex;
+        flex-direction: column;        
+    }
 }

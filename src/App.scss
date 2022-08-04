@@ -15,5 +15,10 @@ input[type=text]{
     margin: 0;
 }
 
+@media (max-width: $mobile-resolution) {
+    .App{
+        overflow-x: hidden;       
+    }
+}
 
 
