@@ -1,0 +1,35 @@
+@import './../../../../scss/constants.scss';
+@import './../../../../scss/colors.scss';
+
+header{
+    width: 100%;
+   
+    background-color: $color-primary; 
+    padding: 1rem 0;
+}
+
+.wrapper{
+    margin: auto;  
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;    
+}
+
+.nav-item__logo{
+    width: auto;
+    margin-right: 1rem;
+}
+
+.nav-item__search{
+    width: 100%;
+}
+
+@media (min-width:$desktop-resolution) {
+    .wrapper{
+        height: auto;
+        max-width: 1200px;
+    }
+}
+

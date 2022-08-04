@@ -1,0 +1,11 @@
+@import './../../../scss/constants.scss';
+
+
+.product-list{
+    display: grid;
+    row-gap: 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 2rem 0;
+}

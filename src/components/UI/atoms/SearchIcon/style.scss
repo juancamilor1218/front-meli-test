@@ -1,0 +1,15 @@
+@import './../../../../scss/colors.scss';
+.search-icon{
+    display: flex;
+    width: 30px;    
+    height: 30px;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+}
+
+.search-icon__image{
+    width: 20px;
+    height: 20px;
+}
+

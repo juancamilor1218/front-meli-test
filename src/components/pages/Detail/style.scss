@@ -1,0 +1,35 @@
+.detail{
+    display: grid;
+    grid-template-columns: 70% 30%;   
+    background-color: #fff;
+    padding: 1rem;
+    margin: 2rem 0; 
+    column-gap: 1.5rem;
+    border-radius: 4px;
+}
+
+.detail > .detail__main-image{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    max-height:  500px;
+    border-radius: 4px;
+}
+
+.price__main{
+    font-size: 2.5rem;
+}
+
+.card-reduced{
+    width: 90%;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.detail__description{
+    margin-top: 2rem;
+}

@@ -1,0 +1,33 @@
+@import './../../../../scss/colors.scss';
+
+.search-group{
+    position: relative;
+    border: 1 solid #fff;
+}
+
+.search-group__field{
+    color: #333;
+    font-size: 1rem;
+    border-radius: 2px;    
+    width: 98%;
+    height: 100%;   
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 0.5rem;
+    box-shadow: none;
+    font-family: inherit;
+}
+
+.search-group__button{
+    position: absolute;
+    z-index: 1000;
+    border: none;
+    right: 1px;
+    height: 100%;
+    top: 0;
+}
+
+.search-group__button:hover{
+   background-color: $color-gray;
+}
